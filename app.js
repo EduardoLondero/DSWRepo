@@ -5,11 +5,12 @@ const port = 3000;
 // Middleware para parsear JSON
 app.use(express.json());
 
-// Definir una ruta de ejemplo
-app.get('/', (req, res) => {
-  res.send('¡Hola, mundo!');
-});
+app.use(express.static('public'));
 
+// Definir una ruta de ejemplo
+app.get('/pagina', (req, res) => {
+  res.sendFile(__dirname + '/views/index.html');
+});
 // Iniciar el servidor
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);

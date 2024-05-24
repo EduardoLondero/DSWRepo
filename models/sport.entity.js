@@ -1,3 +1,5 @@
+
+
 export default class Sport {
     constructor(name, schedule, price) {
         this.name = name;
@@ -12,4 +14,31 @@ export default class Sport {
             <p><strong>Price:</strong> ${this.price}</p>
         `;
     }
+
+    getName() {
+        return this.name;
+    }
+
+    setName(newName) {
+        this.name = newName;
+    }
+    
+    getSchedule() {
+        return this.schedule;
+    }
+
+    setSchedule(newSchedule) {
+        this.schedule = newSchedule;
+    }
+
+    getPrice() {
+        return this.price;
+    }
+
+    setPrice(newPrice) {
+        this.price = newPrice;
+    }
 }
+
+
+
