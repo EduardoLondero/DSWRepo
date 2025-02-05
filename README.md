@@ -26,12 +26,12 @@ Regularidad:
 |CRUD simple|1. CRUD Tipo Membresia<br>2. CRUD Deporte<br>3. CRUD Localidad|
 |CRUD dependiente|1. CRUD Membresia {depende de} CRUD Tipo Membresia<br>2. CRUD Cliente {depende de} CRUD Localidad|
 |Listado<br>+<br>detalle| 1. Listado de Membresias filtrado por tipo de Membresia. Muestra id y tipo de Membresia => detalle CRUD Membresia<br> 2. Listado de Pagos por Usuario, muestra fecha de pago, estado de pago y monto total abonado => detalle muestra datos del tipo de Membresia y nombre|
-|CUU/Epic|1. Comprar Membresia <br>2. Verificación de Membresia|
+|CUU/Epic|1. Inscribirse a Deporte <br>2. Comprar Membresia|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Tipo Membresia<br>2. CRUD Deporte<br>3. CRUD Localidad<br>4. CRUD Pago<br>5. CRUD Membresia<br>6. CRUD Usuario<br>7. CRUD Provincia|
-|CUU/Epic|1. Comprar Membresia<br>2. Eliminar Membresia<br>3. Administrar Usuarios|
+|CUU/Epic|1. Inscribirse a Deporte<br>2. Comprar Membresia<br>3. Administrar Usuarios|
 
