@@ -6,6 +6,7 @@ Bienvenido a la documentación del proyecto. Aquí está toda la información re
 - [Instalacion](instalación.md)
 - [Scripts disponibles](Scripts.md)
 - [Tecnologia utilizada](Tecnologia.md)
+- [Video demonstrativo](evidencia/video.mp4)
 
 ## Evidencias de test
 - ![Captura 1](evidencia/TestFrontend.jpg)  
